@@ -33,15 +33,15 @@ class _ContactPageState extends State<ContactPage> {
       body: SafeArea(
         child: ListView(
           children: [
-            for (var i = 0; i < users.length; i++)
+            for (var card = 0; card < users.length; card++)
               InkWell(
                 onTap: () {},
                 child: ContactItem(User(
-                    id: users[i].id,
-                    nama: users[i].nama,
-                    email: users[i].email,
-                    noHp: users[i].noHp,
-                    imageUrl: users[i].imageUrl,)),
+                    id: users[card].id,
+                    nama: users[card].nama,
+                    email: users[card].email,
+                    noHp: users[card].noHp,
+                    imageUrl: users[card].imageUrl,)),
               ),
           ],
         ),

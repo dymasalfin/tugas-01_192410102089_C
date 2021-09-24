@@ -36,6 +36,34 @@ static List <User> getUser(){
       noHp: '083234567876',
       imageUrl: 'images/reus.jpg'
     ),
+    User(
+      id: 5,
+      nama: 'helda',
+      email: 'heldad@gmail.com',
+      noHp: '081334768909',
+      imageUrl: 'images/helda.jpeg'
+    ),
+    User(
+      id: 6,
+      nama: 'ivtary',
+      email: 'ivtary123@gmail.com',
+      noHp: '083234567876',
+      imageUrl: 'images/ivtari.jpeg'
+    ),
+    User(
+      id: 7,
+      nama: 'savikaaa',
+      email: 'savikaaad@gmail.com',
+      noHp: '082345678987',
+      imageUrl: 'images/savika.jpeg'
+    ),
+    User(
+      id: 8,
+      nama: 'Dymas Alfin',
+      email: 'alfinn112@gmail.com',
+      noHp: '082778000999',
+      imageUrl: 'images/alfin.jpg'
+    ),
   ];
 }
 }

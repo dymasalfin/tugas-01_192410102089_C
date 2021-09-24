@@ -50,6 +50,11 @@ flutter:
      - images/ronaldo.jpeg
      - images/neymar.jpg
      - images/reus.jpg
+     - images/helda.jpeg
+     - images/ivtari.jpeg
+     - images/savika.jpeg
+     - images/alfin.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
